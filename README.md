@@ -22,3 +22,24 @@ Practical exercises and hands-on labs for MikroTik RouterOS, networking fundamen
     network: "192.168.0.0"
     interface: "ether1"
   ```
+
+## Bridge
+
+We can make a bridge between multiple ports, after than they work as a `layer2 switch`.
+
+## Internet into router
+
+1. VPN Client (pppoe)
+
+```
+ISP ---- [Bridged     Modem] ------- pppoe Client ------- Router
+```
+
+2. DHCP Client
+
+```
+ISP ---- [Non Bridged Modem] ------- DHCP Client -------- Router
+```
+
+3. IP Static
+
