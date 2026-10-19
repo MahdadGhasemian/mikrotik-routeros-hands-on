@@ -43,3 +43,9 @@ ISP ---- [Non Bridged Modem] ------- DHCP Client -------- Router
 
 3. IP Static
 
+## Routing
+
+1. Default Route
+   Destination is not specefic, generally 0.0.0.0/0
+2. Static Route
+3. Connected Route
