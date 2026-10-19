@@ -49,3 +49,12 @@ ISP ---- [Non Bridged Modem] ------- DHCP Client -------- Router
    Destination is not specefic, generally 0.0.0.0/0
 2. Static Route
 3. Connected Route
+
+
+## NAT (Network Address Translation)
+
+1. SRC NAT
+   1. Static NAT  (Lan into Wan)
+   2. Dynamic NAT (multiple Lans into multiple Wans)
+   3. PAT         (Port Management)
+2. DST NAT
