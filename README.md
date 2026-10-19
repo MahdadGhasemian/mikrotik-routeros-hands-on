@@ -58,3 +58,7 @@ ISP ---- [Non Bridged Modem] ------- DHCP Client -------- Router
    2. Dynamic NAT (multiple Lans into multiple Wans)
    3. PAT         (Port Management)
 2. DST NAT
+
+Chain `srcnat` Actions:
+   - masqureate: automatically converte a local ip into public (route) ip
+   - src-name:   can define which pubic IP should be used
