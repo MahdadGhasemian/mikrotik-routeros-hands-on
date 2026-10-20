@@ -45,10 +45,15 @@ ISP ---- [Non Bridged Modem] ------- DHCP Client -------- Router
 
 ## Routing
 
-1. Default Route
-   Destination is not specefic, generally 0.0.0.0/0
-2. Static Route
-3. Connected Route
+**Default Route:**
+
+Destination is not specefic, generally 0.0.0.0/0
+
+**Static Route:**
+
+**Connected Route:**
+
+If you add a new ip in `Address List`, a related `Connected Route` is created by mikrotik.
 
 
 ## NAT (Network Address Translation)
@@ -62,3 +67,9 @@ ISP ---- [Non Bridged Modem] ------- DHCP Client -------- Router
 Chain `srcnat` Actions:
    - masqureate: automatically converte a local ip into public (route) ip
    - src-name:   can define which pubic IP should be used
+
+## Security
+
+1. Disable unused `IP Service List`
+2. Change service's port which you want to be active in `IP Service List`
+3. `Filter Rules` (IP -> Firewall -> Filter Rules)
