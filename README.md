@@ -6,6 +6,7 @@ Practical exercises and hands-on labs for MikroTik RouterOS, networking fundamen
 ## Resources
 
 - [pbxshop](https://pbxshop.co/free-courses/free-mikrotik-course/)
+- [IRAN IP LIST](https://dl.pbxshop.co/upload/software/IP-Ranges-By-IR.zip)
 
 ## First Steps
 
@@ -73,3 +74,5 @@ Chain `srcnat` Actions:
 1. Disable unused `IP Service List`
 2. Change service's port which you want to be active in `IP Service List`
 3. `Filter Rules` (IP -> Firewall -> Filter Rules)
+4. In `L2TP` disable both `chap` and `pap` type
+5. In `IPsec Proposal` select `sha256` and `aes-256 cbc`
