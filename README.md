@@ -6,6 +6,16 @@ Practical exercises and hands-on labs for MikroTik RouterOS, networking fundamen
 ## Resources
 
 - [pbxshop](https://pbxshop.co/free-courses/free-mikrotik-course/)
+- [MTCRE](https://www.youtube.com/watch?v=4BOYqtV4MCY&list=PLJ7SGFemsLl1QUNkgAbGj9ldlWRrr8zMj)
+- [VLAN](https://www.youtube.com/watch?v=NQJs2-LqbCY)
+- [GRE](https://www.youtube.com/watch?v=4DUjL7oEopk)
+- [WireGuardVPN](https://www.youtube.com/watch?v=Y-6BpfEBQBo)
+
+## MikroTik Certified 
+
+- MTCNA
+- MTCRE
+- MTCTCE
 
 ## First Steps
 
@@ -73,3 +83,7 @@ Chain `srcnat` Actions:
 1. Disable unused `IP Service List`
 2. Change service's port which you want to be active in `IP Service List`
 3. `Filter Rules` (IP -> Firewall -> Filter Rules)
+
+## Packet Flow
+
+![Packet Flow Diagram](.images/packet-flow-diagram.png)
