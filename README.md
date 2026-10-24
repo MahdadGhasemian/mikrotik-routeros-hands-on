@@ -10,6 +10,7 @@ Practical exercises and hands-on labs for MikroTik RouterOS, networking fundamen
 - [VLAN](https://www.youtube.com/watch?v=NQJs2-LqbCY)
 - [GRE](https://www.youtube.com/watch?v=4DUjL7oEopk)
 - [WireGuardVPN](https://www.youtube.com/watch?v=Y-6BpfEBQBo)
+- [IRAN IP LIST](https://dl.pbxshop.co/upload/software/IP-Ranges-By-IR.zip)
 
 ## MikroTik Certified 
 
@@ -83,6 +84,8 @@ Chain `srcnat` Actions:
 1. Disable unused `IP Service List`
 2. Change service's port which you want to be active in `IP Service List`
 3. `Filter Rules` (IP -> Firewall -> Filter Rules)
+4. In `L2TP` disable both `chap` and `pap` type
+5. In `IPsec Proposal` select `sha256` and `aes-256 cbc`
 
 ## Packet Flow
 
