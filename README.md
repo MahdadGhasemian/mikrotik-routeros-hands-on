@@ -10,6 +10,7 @@ Practical exercises and hands-on labs for MikroTik RouterOS, networking fundamen
 - [VLAN](https://www.youtube.com/watch?v=NQJs2-LqbCY)
 - [GRE](https://www.youtube.com/watch?v=4DUjL7oEopk)
 - [WireGuardVPN](https://www.youtube.com/watch?v=Y-6BpfEBQBo)
+- [WireGuard](https://manual.mikrotik.com/docs/virtual-private-networks/wireguard)
 - [IRAN IP LIST](https://dl.pbxshop.co/upload/software/IP-Ranges-By-IR.zip)
 
 ## MikroTik Certified 
@@ -90,3 +91,8 @@ Chain `srcnat` Actions:
 ## Packet Flow
 
 ![Packet Flow Diagram](.images/packet-flow-diagram.png)
+
+## VLAN
+
+- UnTagged (Access) Vlan
+- Tagged (Trunk) Valn
